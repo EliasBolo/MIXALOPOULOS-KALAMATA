@@ -1,13 +1,18 @@
+import Image from "next/image"
 import { ChevronDown } from "lucide-react"
 
 export default function HeroSection() {
   return (
     <section id="hero" className="relative flex min-h-screen items-center justify-center overflow-hidden">
-      {/* Background image - direct URL so it always loads from public, no optimizer */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url(/images/hero-bg.jpg)' }}
-        aria-hidden
+      {/* Background image */}
+      <Image
+        src="/images/hero-bg.jpg"
+        alt="Μηχανουργείο Μιχαλόπουλος - Βιομηχανικό εργαστήριο"
+        fill
+        className="object-cover"
+        priority
+        quality={85}
+        unoptimized
       />
 
       {/* Dark overlay */}
