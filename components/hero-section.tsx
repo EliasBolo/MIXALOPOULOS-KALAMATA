@@ -34,7 +34,7 @@ export default function HeroSection() {
         <p className="mb-4 text-xl font-light tracking-wide text-[#b0cde0] md:text-2xl">
           {"Υπηρεσίες Μηχανουργείου"}
         </p>
-        <p className="mx-auto mb-10 max-w-2xl text-base leading-relaxed text-[#8aa3b8]">
+        <p className="mx-auto mb-10 max-w-2xl text-base leading-relaxed text-[#e4ecf2]">
           {"Εξειδικευόμαστε στην κατασκευή σωλήνων πιέσεως & μπουκάλων ανυψωτικών μηχανημάτων. Μηχανουργικές εργασίες στην Καλαμάτα, Μεσσηνία."}
         </p>
 
