@@ -11,22 +11,11 @@ const tabs = [
     content: (
       <div className="space-y-4">
         <p className="leading-relaxed text-[#4a6078]">
-          {"Η εταιρία Μιχαλόπουλος Ι.Κ.Ε. αποτελείται από έμπειρους τεχνίτες και μηχανολόγους με πολυετή εμπειρία στον χώρο του μηχανουργείου. Η ομάδα μας εξυπηρετεί πελάτες από όλη τη Μεσσηνία και την Πελοπόννησο."}
+          {"Βασίλειος Μιχαλόπουλος του Ιωάννη και της Αμαλίας, επιχειρηματίας, κάτοικος Καλαμάτας Μεσσηνίας, οδός Δημοκρίτου αριθμός 18 (Α.Φ.Μ. 064849309, Δ.Ο.Υ. Καλαμάτας), με 570 εταιρικά μερίδια ονομαστικής αξίας 100,00 ευρώ το καθένα και συνολικής αξίας 57.000,00 ευρώ, που εκπροσωπούν – αποτελούν στο σύνολο τους κεφαλαιακές εισφορές."}
         </p>
-        <ul className="space-y-2 text-[#4a6078]">
-          <li className="flex items-center gap-2">
-            <span className="h-1.5 w-1.5 rounded-full bg-[#7cb3d4]" />
-            {"Εξειδικευμένοι μηχανολόγοι"}
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="h-1.5 w-1.5 rounded-full bg-[#7cb3d4]" />
-            {"Πολυετής εμπειρία στον κλάδο"}
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="h-1.5 w-1.5 rounded-full bg-[#7cb3d4]" />
-            {"Αξιόπιστες & ποιοτικές υπηρεσίες"}
-          </li>
-        </ul>
+        <p className="leading-relaxed text-[#4a6078]">
+          {"Μαρία Τσερώνη του Ανδρέα και της Σταυρούλας, οικοκυρά, κάτοικος Καλαμάτας Μεσσηνίας, οδός Δημοκρίτου αριθμός 18 (Α.Φ.Μ. 048095279, Δ.Ο.Υ. Καλαμάτας) με 30 εταιρικά μερίδια ονομαστικής αξίας 100,00 ευρώ το καθένα και συνολικής αξίας 3.000,00 ευρώ, που εκπροσωπούν – αποτελούν στο σύνολο τους κεφαλαιακές εισφορές."}
+        </p>
       </div>
     ),
   },
@@ -50,6 +39,24 @@ const tabs = [
             {"Έδρα: Καλαμάτα, Μεσσηνίας"}
           </p>
         </div>
+        <ul className="mt-4 space-y-2 text-[#4a6078]">
+          <li className="flex items-center gap-2">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#7cb3d4]" />
+            {"ΟΙΚΟΝΟΜΙΚΗ ΚΑΤΑΣΤΑΣΗ - 2018"}
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#7cb3d4]" />
+            {"ΟΙΚΟΝΟΜΙΚΗ ΚΑΤΑΣΤΑΣΗ - 2019"}
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#7cb3d4]" />
+            {"ΟΙΚΟΝΟΜΙΚΗ ΚΑΤΑΣΤΑΣΗ - 2020"}
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#7cb3d4]" />
+            {"ΟΙΚΟΝΟΜΙΚΗ ΚΑΤΑΣΤΑΣΗ - 2021"}
+          </li>
+        </ul>
       </div>
     ),
   },
