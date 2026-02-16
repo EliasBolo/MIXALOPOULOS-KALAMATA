@@ -1,1 +1,21 @@
-PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMxZTNhNWYiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMiwzMikiPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9IjE4IiBzdHJva2U9IiM3Y2IzZDQiIHN0cm9rZS13aWR0aD0iMyIgZmlsbD0ibm9uZSIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9IjciIHN0cm9rZT0iIzdjYjNkNCIgc3Ryb2tlLXdpZHRoPSIzIiBmaWxsPSJub25lIi8+CiAgICA8bGluZSB4MT0iMCIgeTE9Ii0xOCIgeDI9IjAiIHkyPSItNyIgc3Ryb2tlPSIjN2NiM2Q0IiBzdHJva2Utd2lkdGg9IjIuNSIvPgogICAgPGxpbmUgeDE9IjAiIHkxPSI3IiB4Mj0iMCIgeTI9IjE4IiBzdHJva2U9IiM3Y2IzZDQiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgICA8bGluZSB4MT0iLTE4IiB5MT0iMCIgeDI9Ii03IiB5Mj0iMCIgc3Ryb2tlPSIjN2NiM2Q0IiBzdHJva2Utd2lkdGg9IjIuNSIvPgogICAgPGxpbmUgeDE9IjciIHkxPSIwIiB4Mj0iMTgiIHkyPSIwIiBzdHJva2U9IiM3Y2IzZDQiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgICA8bGluZSB4MT0iLTEyLjciIHkxPSItMTIuNyIgeDI9Ii00LjkiIHkyPSItNC45IiBzdHJva2U9IiM3Y2IzZDQiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgICA8bGluZSB4MT0iNC45IiB5MT0iNC45IiB4Mj0iMTIuNyIgeTI9IjEyLjciIHN0cm9rZT0iIzdjYjNkNCIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIDxsaW5lIHgxPSIxMi43IiB5MT0iLTEyLjciIHgyPSI0LjkiIHkyPSItNC45IiBzdHJva2U9IiM3Y2IzZDQiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgICA8bGluZSB4MT0iLTQuOSIgeTE9IjQuOSIgeDI9Ii0xMi43IiB5Mj0iMTIuNyIgc3Ryb2tlPSIjN2NiM2Q0IiBzdHJva2Utd2lkdGg9IjIuNSIvPgogIDwvZz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMiwzMikgcm90YXRlKC00NSkiPgogICAgPHJlY3QgeD0iLTMuNSIgeT0iLTI4IiB3aWR0aD0iNyIgaGVpZ2h0PSI1NiIgcng9IjMiIGZpbGw9IiNjMGQ2ZTQiIG9wYWNpdHk9IjAuMyIvPgogICAgPHJlY3QgeD0iLTIiIHk9Ii0yNiIgd2lkdGg9IjQiIGhlaWdodD0iMTgiIHJ4PSIyIiBmaWxsPSIjN2NiM2Q0Ii8+CiAgICA8cmVjdCB4PSItNCIgeT0iNiIgd2lkdGg9IjgiIGhlaWdodD0iNiIgcng9IjEiIGZpbGw9IiM3Y2IzZDQiLz4KICAgIDxyZWN0IHg9Ii0zIiB5PSIxMiIgd2lkdGg9IjYiIGhlaWdodD0iMTQiIHJ4PSIxLjUiIGZpbGw9IiM3Y2IzZDQiLz4KICA8L2c+Cjwvc3ZnPgo=
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="12" fill="#1e3a5f"/>
+  <g transform="translate(32,32)">
+    <circle cx="0" cy="0" r="18" stroke="#7cb3d4" stroke-width="3" fill="none"/>
+    <circle cx="0" cy="0" r="7" stroke="#7cb3d4" stroke-width="3" fill="none"/>
+    <line x1="0" y1="-18" x2="0" y2="-7" stroke="#7cb3d4" stroke-width="2.5"/>
+    <line x1="0" y1="7" x2="0" y2="18" stroke="#7cb3d4" stroke-width="2.5"/>
+    <line x1="-18" y1="0" x2="-7" y2="0" stroke="#7cb3d4" stroke-width="2.5"/>
+    <line x1="7" y1="0" x2="18" y2="0" stroke="#7cb3d4" stroke-width="2.5"/>
+    <line x1="-12.7" y1="-12.7" x2="-4.9" y2="-4.9" stroke="#7cb3d4" stroke-width="2.5"/>
+    <line x1="4.9" y1="4.9" x2="12.7" y2="12.7" stroke="#7cb3d4" stroke-width="2.5"/>
+    <line x1="12.7" y1="-12.7" x2="4.9" y2="-4.9" stroke="#7cb3d4" stroke-width="2.5"/>
+    <line x1="-4.9" y1="4.9" x2="-12.7" y2="12.7" stroke="#7cb3d4" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(32,32) rotate(-45)">
+    <rect x="-3.5" y="-28" width="7" height="56" rx="3" fill="#c0d6e4" opacity="0.3"/>
+    <rect x="-2" y="-26" width="4" height="18" rx="2" fill="#7cb3d4"/>
+    <rect x="-4" y="6" width="8" height="6" rx="1" fill="#7cb3d4"/>
+    <rect x="-3" y="12" width="6" height="14" rx="1.5" fill="#7cb3d4"/>
+  </g>
+</svg>
