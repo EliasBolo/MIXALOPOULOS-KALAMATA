@@ -60,8 +60,8 @@ export default function Footer() {
               {[
                 { label: "Αρχική", href: "#hero" },
                 { label: "Η Εταιρία", href: "#about" },
-                { label: "Υπηρεσίες", href: "#services" },
-                { label: "Επικοινωνία", href: "#contact" },
+                { label: "Πολιτική Απορρήτου", href: "/politiki-aporritou" },
+                { label: "Πολιτική Προσβασιμότητας", href: "/politiki-prosvasimotitas" },
               ].map((link) => (
                 <li key={link.href}>
                   <a
