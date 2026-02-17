@@ -38,6 +38,9 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
+  verification: {
+    google: 'RoL00PRq9yrI7A7_1f8D1rKSNbXyhPo9rYORECK4nxo',
+  },
 }
 
 export const viewport: Viewport = {
