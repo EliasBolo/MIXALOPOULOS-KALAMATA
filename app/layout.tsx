@@ -1,11 +1,13 @@
 import type { Metadata, Viewport } from 'next'
 import { Manrope } from 'next/font/google'
 
+import { AccessibilityWidget } from '@/components/accessibility-widget'
 import './globals.css'
 
 const _manrope = Manrope({ subsets: ['latin', 'greek'], variable: '--font-manrope' })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://michalopoulos.gr'),
   title: 'ΜΙΧΑΛΟΠΟΥΛΟΣ Ι.Κ.Ε. - Μηχανουργείο στην Καλαμάτα Μεσσηνίας',
   description:
     'Μηχανουργείο με 40 χρόνια εμπειρίας στην Καλαμάτα Μεσσηνίας. Κατασκευή σωλήνων πιέσεως, μπουκάλων ανυψωτικών μηχανημάτων, ανταλλακτικά & επισκευές αγροτικών μηχανημάτων. Μιχαλόπουλος Ι.Κ.Ε.',
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'ΜΙΧΑΛΟΠΟΥΛΟΣ Ι.Κ.Ε.',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'ΜΙΧΑΛΟΠΟΥΛΟΣ Ι.Κ.Ε. - Μηχανουργείο Καλαμάτα',
     description:
       'Μηχανουργείο με 40 χρόνια εμπειρίας στην Καλαμάτα Μεσσηνίας.',
@@ -51,7 +53,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="el-GR">
-      <body className={`${_manrope.variable} font-sans antialiased`}>{children}</body>
+      <body className={`${_manrope.variable} font-sans antialiased`}>
+        {children}
+        <AccessibilityWidget />
+      </body>
     </html>
   )
 }

@@ -89,6 +89,7 @@ export default function StatsSection() {
         fill
         className="object-cover"
         quality={75}
+        unoptimized
       />
       <div className="absolute inset-0 bg-[#0c1e33]/90" />
 
