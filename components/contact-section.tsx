@@ -78,7 +78,7 @@ export default function ContactSection() {
           <div className="overflow-hidden rounded-xl border border-[#d0dde8] shadow-sm lg:col-span-3">
             <iframe
               title="Τοποθεσία Μιχαλόπουλος Ι.Κ.Ε."
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51259.36110784!2d22.075!3d37.040!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1361a0c5f6cd8b7f%3A0x400bd2ce2b98e50!2z0prOsc67zrHOvM6szrTOsQ!5e0!3m2!1sel!2sgr!4v1700000000000!5m2!1sel!2sgr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11383.126043229817!2d22.087099951837217!3d37.03003051538248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1361b1512c07b885%3A0xc462d020df09b457!2zzpzOmc6nzpHOm86fzqDOn86lzpvOn86jIM6ZzprOlQ!5e1!3m2!1sel!2sgr!4v1771314864542!5m2!1sel!2sgr"
               width="100%"
               height="400"
               style={{ border: 0 }}
