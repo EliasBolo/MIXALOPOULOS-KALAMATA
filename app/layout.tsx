@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Manrope } from 'next/font/google'
 
+import { AccessibilityWidget } from '@/components/accessibility-widget'
 import './globals.css'
 
 const _manrope = Manrope({ subsets: ['latin', 'greek'], variable: '--font-manrope' })
@@ -52,7 +53,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="el">
-      <body className={`${_manrope.variable} font-sans antialiased`}>{children}</body>
+      <body className={`${_manrope.variable} font-sans antialiased`}>
+        {children}
+        <AccessibilityWidget />
+      </body>
     </html>
   )
 }

@@ -96,3 +96,51 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Floating accessibility widget: more bottom spacing on mobile */
+:root {
+  --a11y-widget-bottom: 1.5rem;
+}
+@media (max-width: 768px) {
+  :root {
+    --a11y-widget-bottom: 2.5rem;
+  }
+}
+
+/* Accessibility: text scale */
+html[data-a11y-text-scale='110'] {
+  font-size: 110%;
+}
+html[data-a11y-text-scale='125'] {
+  font-size: 125%;
+}
+
+/* Accessibility: high contrast */
+html[data-a11y-contrast='true'] {
+  --foreground: 215 40% 8%;
+  --background: 210 10% 98%;
+  --muted-foreground: 215 25% 25%;
+  --border: 215 20% 85%;
+}
+html[data-a11y-contrast='true'] body {
+  background: hsl(210 10% 98%);
+  color: hsl(215 40% 8%);
+}
+
+/* Accessibility: underline links */
+html[data-a11y-underline-links='true'] a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+/* Accessibility: reduce motion */
+html[data-a11y-reduce-motion='true'] *,
+html[data-a11y-reduce-motion='true'] *::before,
+html[data-a11y-reduce-motion='true'] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
+html[data-a11y-reduce-motion='true'] {
+  scroll-behavior: auto;
+}
