@@ -50,7 +50,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="el">
+    <html lang="el-GR">
       <body className={`${_manrope.variable} font-sans antialiased`}>{children}</body>
     </html>
   )
